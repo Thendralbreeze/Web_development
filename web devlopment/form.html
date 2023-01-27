@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> forms </title>
+</head>
+<body> 
+	<center>
+		<form method="post" action="formstaff.php">
+			<br>
+			SIGN UP<br><br>
+			<label for="user name">Enter Your user Name: <input id="user name" name="first-name" type="text" required /></label><br><br>
+			<label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label><br><br>
+			        <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+			<input type="submit" value="submit">
+		</form>
+	</center>
+
+</body>
+</html>
